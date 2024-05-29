@@ -23,4 +23,11 @@ public class Menu {
 
         return ler.nextByte();
     }
+
+    public String exibeMenuCadastroLivro() {
+        System.out.println("""
+                Entre com o nome do livro:
+                """);
+        return ler.nextLine();
+    }
 }

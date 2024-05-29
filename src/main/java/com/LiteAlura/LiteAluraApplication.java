@@ -1,5 +1,6 @@
 package com.LiteAlura;
 
+import com.LiteAlura.principal.Principal;
 import com.LiteAlura.view.Menu;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -14,12 +15,7 @@ public class LiteAluraApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-
-		Menu menu = new Menu();
-		byte opcao = -3;
-
-		while (opcao != 0){
-			opcao = menu.exibeMenuInicial();
-		}
+		Principal main = new Principal();
+		main.inicial();
 	}
 }

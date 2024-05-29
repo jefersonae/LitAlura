@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e47b913-c0d7-484e-8612-6637a95c12ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/service/ConsumoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/service/ConverteDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/service/IConverteDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/view/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="0e47b913-c0d7-484e-8612-6637a95c12ec" name="Changes" comment="Add initial menu">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/controller/LivroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/dto/dadosAutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/model/Autor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/model/Linguagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/model/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/principal/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/repository/AutorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/repository/LivroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/LiteAluraApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/LiteAluraApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/view/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -58,18 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.LiteAluraApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LitAlura" />
@@ -94,9 +96,20 @@
       <option name="presentableId" value="Default" />
       <updated>1716832067033</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add initial menu">
+      <option name="closed" value="true" />
+      <created>1716931726200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716931726200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add initial menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial menu" />
   </component>
 </project>
