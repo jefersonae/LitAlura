@@ -8,7 +8,7 @@ public class Menu {
 
     public byte exibeMenuInicial() {
 
-        System.out.println("""
+        System.out.print("""
                 ***********************************************
                                    LiteAlura
                 ***********************************************
@@ -20,14 +20,15 @@ public class Menu {
                 5 - Listar livros em um determinado idioma
                 0 - Sair
                 """);
-
         return ler.nextByte();
     }
 
     public String exibeMenuCadastroLivro() {
-        System.out.println("""
+        System.out.print("""
+                ---------Cadastrar novo Livro---------
                 Entre com o nome do livro:
                 """);
+        ler.nextLine();
         return ler.nextLine();
     }
 }

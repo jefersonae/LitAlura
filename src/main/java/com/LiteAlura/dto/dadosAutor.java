@@ -1,4 +1,7 @@
 package com.LiteAlura.dto;
 
-public record dadosAutor() {
+import java.util.Date;
+
+public record dadosAutor(
+        String name, Date dataNascimento, Date dataFalecimento) {
 }
