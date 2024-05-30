@@ -14,7 +14,8 @@ public class Principal {
             opcao = menu.exibeMenuInicial();
             switch (opcao){
                 case 1:
-                    livroController.buscaLivroApi(menu.exibeMenuCadastroLivro());
+                    String livro = menu.exibeMenuCadastroLivro();
+                    livroController.buscaLivroApi(livro);
                     break;
                 case 2:
                     break;
@@ -23,6 +24,9 @@ public class Principal {
                 case 4:
                     break;
                 case 5:
+                    break;
+                default:
+                    System.out.println("Opção inválidada!");
                     break;
             }
         }
