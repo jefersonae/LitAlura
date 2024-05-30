@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e47b913-c0d7-484e-8612-6637a95c12ec" name="Changes" comment="changes models and controllers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/controller/LivroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/controller/LivroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/dto/dadosAutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/dto/dadosAutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/dto/dadosLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/dto/dadosLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/repository/AutorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/controller/LivroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/controller/LivroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/dto/dadosAutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/dto/dadosAutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/model/Autor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/model/Autor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/model/Livro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/model/Livro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/principal/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/principal/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/view/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/view/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/view/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +111,17 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

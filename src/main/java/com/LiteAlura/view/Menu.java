@@ -31,4 +31,11 @@ public class Menu {
         ler.nextLine();
         return ler.nextLine();
     }
+
+    public String exibeMenuLinguagem(){
+        System.out.println("""
+                
+                """);
+        return ler.nextLine();
+    }
 }
