@@ -1,7 +1,8 @@
-package com.LiteAlura;
+package com.litealura;
 
-import com.LiteAlura.principal.Principal;
-import com.LiteAlura.view.Menu;
+import com.litealura.main.Main;
+import com.litealura.service.BookService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,13 +10,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LiteAluraApplication implements CommandLineRunner {
 
+	@Autowired
+	BookService bookService;
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(LiteAluraApplication.class, args);
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		Principal main = new Principal();
-		main.inicial();
+		Main main = new Main(bookService);
+		main.getMenu();
 	}
 }

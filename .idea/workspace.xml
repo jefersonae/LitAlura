@@ -5,7 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e47b913-c0d7-484e-8612-6637a95c12ec" name="Changes" comment="changes models and controllers">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LiteAlura/view/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/model/AuthorData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/model/BookData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/model/ResultsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/repository/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/service/ConsumingApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/service/ConvertData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/litealura/service/IConvertData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/LiteAluraApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/litealura/LiteAluraApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/controller/LivroController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/dto/Linguagem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/dto/dadosAutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/dto/dadosLivro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/model/Autor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/model/Livro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/principal/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/repository/LivroRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/service/ConsumoApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/service/ConverteDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/service/IConverteDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LiteAlura/view/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/LiteAlura/LiteAluraApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/litealura/LiteAluraApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/controller/LivroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/controller/LivroController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/dto/dadosAutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/dto/dadosAutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/dto/dadosLivro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/model/Livro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/model/Livro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/repository/AutorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LiteAlura/view/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LiteAlura/view/Menu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
         <option value="Record" />
       </list>
     </option>
@@ -109,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717039160063</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes models and controllers">
+      <option name="closed" value="true" />
+      <created>1717107644412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717107644412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
