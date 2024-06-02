@@ -15,6 +15,10 @@
 </ul>
 <h2>:hammer:Como funciona?</h2>
 <p>Configure no arquivo Application.properties as informações do seu banco de dados. Ao rodar a aplicação selecione o item desejado de acordo com as opções:</p>
-<ol>
-  <li></li>
-</ol>
+<ul>
+  <li>Buscar livros: a aplicação irá consumir a API e pegar as informações dos livros</li>
+  <li>Listar livros registrados: mostra todos os livros cadastrados no banco</li>
+  <li>Listar autores registrados: mostra todos os autores cadastrados no banco</li>
+  <li>Listar autores vivos em um ano: gera uma lista de autores que estavam vivos em determinado ano</li>
+  <li>Listar livros na linguagem: lista os livros de uma determinada linguagem</li>
+</ul>
